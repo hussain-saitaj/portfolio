@@ -1,0 +1,189 @@
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #f2f2f2;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 20px;
+}
+nav{
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #000;
+}
+
+#logo{
+    background-image: url('./images/icon.png');
+    height: 150px;
+    width: 300px;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y:center;
+}
+#nav-2{
+    width: 20%;
+    padding: 4rem 6rem;
+    font-size: 0.9rem;
+    text-align: center;
+}
+#container{
+    padding-bottom: 200px;
+}
+#img1{
+    background-image: url('./images/img2.png');
+    margin: 5rem 2rem 3rem 6rem;
+    height: 450px;
+    width: 50%;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y:center;
+}
+#img2{
+    background-image: url('./images/img4.png');
+    margin: -10rem 2rem 3rem 6rem;
+    height: 700px;
+    width: 500px;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y:center;
+    position: absolute;
+    left: 54%;
+}
+#img3{
+    background-image: url('./images/img5.png');
+    margin: 12rem 2rem 3rem 12rem;
+    height: 500px;
+    width: 500px;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y:center;
+}
+#img4{
+    background-image: url('./images/img3.png');
+    margin: 2rem 0rem 3rem 3rem;
+    height: 500px;
+    width: 50%;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y:center;
+    position: absolute;
+    left: 40%;
+    
+}
+#img5{
+    background-image: url('./images/img1.png');
+    margin: 20rem 0rem 3rem 6rem;
+    height: 700px;
+    width: 500px;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y:center;
+}
+
+#img6{
+    background-image: url('./images/img10.png');
+    margin: 15rem 4rem 3rem 6rem;
+    height: 500px;
+    width: 48%;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y:center;
+}
+#img7{
+    background-image: url('./images/img8.png');
+    margin: -10rem 2rem 3rem 6rem;
+    height: 500px;
+    width: 500px;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y:center;
+    position: absolute;
+    left: 52%;
+}
+#img8{
+    background-image: url('./images/img9.png');
+    margin: -10rem 2rem 3rem 12rem;
+    height: 500px;
+    width: 500px;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y:center;
+    position: absolute;
+    left: 47%;
+}
+#img9{
+    background-image: url('./images/img7.png');
+    margin: 15rem 0rem 3rem 5rem;
+    height: 600px;
+    width: 50%;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y:center;
+    
+}
+#img10{
+    background-image: url('./images/img6.png');
+    margin: -20rem 0rem 10rem 6rem;
+    height: 500px;
+    width: 500px;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y:center;
+    position: absolute;
+    left: 52%;
+}
+@media  (max-width:675px) {
+    body {
+        margin: 0;
+    } 
+    nav{
+        display: flex;
+        flex-direction: column;
+        height: 300px;
+        margin: 0 4rem -1rem 1rem;
+        justify-content: center;
+        align-items: center;
+    }
+    #logo{
+        margin: 0 auto;
+    }
+    #nav-2{
+        margin-top: -4rem;
+        width: 100%;
+    }
+    #container{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        width: 90%;
+        margin: 0 auto;
+    }
+    #img1, #img3, #img5,#img2, #img4,#img6,#img7,#img8,#img9,#img10{
+        width: 90%;
+        height: 500px;
+        left: 0;
+        position: absolute;
+        margin:0;
+    }
+    #img1 { top: -20px; }
+    #img2 { top: calc( 500px); }
+    #img3 { top: calc(20px + 2 * 500px); }
+    #img4 { top: calc(40px + 3 * 500px); }
+    #img5 { top: calc(60px + 4 * 500px); }
+    #img6 { top: calc(80px + 5 * 500px); }
+    #img7 { top: calc(100px + 6 * 500px); }
+    #img8 { top: calc(120px + 7 * 500px); }
+    #img9 { top: calc(140px + 8 * 500px); }
+    #img10 { top: calc(160px + 9 * 500px); }
+    
+}
